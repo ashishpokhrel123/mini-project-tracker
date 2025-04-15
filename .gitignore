@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Build and cache
+build/
+dist/
+coverage/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Backend-specific
+/backend/node_modules/
+/backend/.env
+/backend/build/
+/backend/dist/
+/backend/coverage/
+/backend/package-lock.json
+
+# Frontend-specific
+/frontend/node_modules/
+/frontend/.env
+/frontend/build/
+/frontend/dist/
+/frontend/coverage/
+/frontend/package-lock.json
